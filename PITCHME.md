@@ -62,21 +62,20 @@ Juin 2017
 - <span class="fragment">Rudder</span>
 - <span class="fragment">OpenShift</span>
 
-+++
-
+---
 ### Les critères de comparaison 
 - <span class="fragment">Facilité d'installation</span>
 - <span class="fragment">facilité d'utilisation</span>
-- <span class="fragment">Scalable</span>
+- <span class="fragment">Evolution</span>
 - <span class="fragment">Architecture</span>
-+++
+---
 
 <table style="font-size: 60%;">
   <tr>
     <th>Solutions</th>
     <th>Facilité d'installation</th>
     <th>Facilité d'utilisation</th>
-    <th>Scalable</th>
+    <th>Evolution</th>
     <th>Archicteture</th>
   </tr>
   <tr>
