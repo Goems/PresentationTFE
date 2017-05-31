@@ -68,7 +68,7 @@ Juin 2017
 - <span class="fragment">facilité d'utilisation</span>
 - <span class="fragment">Evolution</span>
 - <span class="fragment">Architecture</span>
----
++++
 
 <table style="font-size: 60%;">
   <tr>
