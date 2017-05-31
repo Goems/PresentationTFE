@@ -27,7 +27,9 @@ Juin 2017
 - <span class="fragment">45 personnes</span>
 - <span class="fragment">15 ans</span>
 - <span class="fragment">Zoning de Gosselies</span>
-----
+
+
+---
 ### La problématique ?
 - <span class="fragment">L'installation et la configuration de serveurs ou de machines prend du temps</span>
 +++
