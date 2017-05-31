@@ -82,14 +82,14 @@ Juin 2017
   <tr>
     <td>Puppet</td>
     <td>°°</td>
-    <td>°°°</td>
-    <td>°°°</td>
+    <td>°°</td>
+    <td>°°</td>
     <td>Serveur/Client</td>
   </tr>
     <tr>
     <td>Chef</td>
     <td>°°°</td>
-    <td>°°°</td>
+    <td>°°°°</td>
     <td>°°°</td>
     <td>Serveur/Client</td>
   </tr>
@@ -97,7 +97,7 @@ Juin 2017
     <td>Ansible</td>
     <td>°°°°</td>
     <td>°°°</td>
-    <td>°°°</td>
+    <td>°°°°</td>
     <td>Client</td>
   </tr>
     <tr>
