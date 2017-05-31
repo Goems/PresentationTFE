@@ -12,7 +12,7 @@ Juin 2017
 ---
 ## Sommaire
  - <span class ="fragment">Le CETIC ? C'est quoi ?</span>  
- - <span class ="fragment">Problématique </span>
+ - <span class ="fragment">Problématiques et solutions </span>
  - <span class ="fragment">Analyse et résultat</span>
  - <span class ="fragment"> Conclusion </span> 
 
@@ -30,10 +30,19 @@ Juin 2017
 
 
 ---
-### La problématique ?
-- <span class="fragment">L'installation et la configuration de serveurs ou de machines prend du temps</span>
+### Les problématique ?
+- <span class="fragment">L'installation et la configuration de serveur est fastidieux</span>
+- <span class="fragment">Le déployement d'application est aussi fastidieux</span>
 +++
+<img class="plain" data-src="Problématique.png"/>
++++
+### Les solutions 
 
+- <span class="fragment">Logiciel de gestion de configuration</span>
+
++++
+<img class="plain" data-src="Solution.png"/>
++++
 ### Les solutions
 
 - <span class="fragment">Puppet</span>
