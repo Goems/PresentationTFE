@@ -43,6 +43,16 @@ Juin 2017
 +++
 <img class="plain" data-src="Solution.png"/>
 +++
+### Technologie conteneur 
+- <span class="fragment">Isolement d'un environement en utilisant les resources de la machine hote</span>
+- <span class="fragment">Excution de logiciel en toute transparance sur n'importe quel environement</span>
+- <span class="fragment">Permet un déploiment très facile </span>
+
++++
+
+### Virtualisation Vs Conteneurs
+<img class="plain" data-src="CaptureDocker1.png"/>
++++
 ### Les solutions
 
 - <span class="fragment">Puppet</span>
@@ -59,10 +69,6 @@ Juin 2017
 - <span class="fragment">facilité d'utilisation</span>
 - <span class="fragment">Scalable</span>
 - <span class="fragment">Architecture</span>
-- <span class="fragment">Repositerie</span>
-- <span class="fragment">Langage</span>
-- <span class="fragment">Plateformes supportées</span>
-
 +++
 
 ---
