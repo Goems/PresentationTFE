@@ -11,10 +11,10 @@ Juin 2017
 ## Remerciment 
 ---
 ## Sommaire
- - <span class ="fragment">Le CETIC ? C'est quoi ?</span>  
- - <span class ="fragment">Problématiques et solutions </span>
- - <span class ="fragment">Analyse et résultat</span>
- - <span class ="fragment"> Conclusion </span> 
+ - Le CETIC ? C'est quoi ? |
+ - Problématiques et solutions |
+ - Analyse et résultat |
+ - Conclusion |
 
 ---
 
@@ -23,30 +23,30 @@ Juin 2017
 
 +++
 ### Présentation
-- <span class="fragment">ASBL</span>
-- <span class="fragment">45 personnes</span>
-- <span class="fragment">15 ans</span>
-- <span class="fragment">Zoning de Gosselies</span>
+- ASBL |
+- 45 personnes |
+- 15 ans |
+- Zoning de Gosselies |
 
 
 ---
 ### Les problématique ?
-- <span class="fragment">L'installation et la configuration de serveur est fastidieux</span>
-- <span class="fragment">Le déployement d'application est aussi fastidieux</span>
+- L'installation et la configuration de serveur est fastidieux |
+- Le déployement d'application est aussi fastidieux |
 +++
 <img class="plain" data-src="Problématique.png"/>
 +++
 ### Les solutions 
 
-- <span class="fragment">Logiciel de gestion de configuration</span>
+- Logiciel de gestion de configuration |
 
 +++
 <img class="plain" data-src="Solution.png"/>
 +++
 ### Technologie conteneur 
-- <span class="fragment">Isolement d'un environement en utilisant les resources de la machine hote</span>
-- <span class="fragment">Excution de logiciel en toute transparance sur n'importe quel environement</span>
-- <span class="fragment">Permet un déploiment très facile </span>
+- Isolement d'un environement en utilisant les resources de la machine hote |
+- Excution de logiciel en toute transparance sur n'importe quel environement |
+- Permet un déploiment très facile |
 
 +++
 
@@ -55,19 +55,19 @@ Juin 2017
 +++
 ### Les solutions
 
-- <span class="fragment">Puppet</span>
-- <span class="fragment">Chef</span>
-- <span class="fragment">Ansible</span>
-- <span class="fragment">Saltstack</span>
-- <span class="fragment">Rudder</span>
-- <span class="fragment">OpenShift</span>
+- Puppet |
+- Chef |
+- Ansible |
+- Saltstack |
+- Rudder |
+- OpenShift |
 
 ---
 ### Les critères de comparaison 
-- <span class="fragment">Facilité d'installation</span>
-- <span class="fragment">facilité d'utilisation</span>
-- <span class="fragment">Evolution</span>
-- <span class="fragment">Architecture</span>
+- Facilité d'installation |
+- facilité d'utilisation |
+- Evolution |
+- Architecture |
 +++
 
 <table style="font-size: 60%;">
@@ -124,5 +124,5 @@ Juin 2017
 
 ### Conclusion 
 
-- <span class="fragment">Autonomie</span>
-- <span class="fragment">Curiosité</span>
+- Autonomie |
+- Curiosité |
