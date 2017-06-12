@@ -8,14 +8,13 @@ Sous la direction de Sébastien DUPONT et de Michel HANOTIAUX
 Juin 2017
 
 ---
-## Remerciment 
----
+
 ## Sommaire
  - <span class ="fragment">Le CETIC ? C'est quoi ?</span>  
  - <span class ="fragment">Problématiques et solutions </span>
  - <span class ="fragment">Environement</span> 
  - <span class ="fragment">Analyse et résultat</span>
- - <span class ="fragment"> Conclusion </span> 
+ - <span class ="fragment">Conclusion </span> 
 
 ---
 
@@ -253,3 +252,7 @@ nginx:
 
 - <span class="fragment">Autonomie</span>
 - <span class="fragment">Curiosité</span>
+
+---
+
+### Question ? 
