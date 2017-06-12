@@ -13,6 +13,7 @@ Juin 2017
 ## Sommaire
  - <span class ="fragment">Le CETIC ? C'est quoi ?</span>  
  - <span class ="fragment">Problématiques et solutions </span>
+ - <span class ="fragment">Environement</span> 
  - <span class ="fragment">Analyse et résultat</span>
  - <span class ="fragment"> Conclusion </span> 
 
@@ -31,10 +32,9 @@ Juin 2017
 
 ---
 ### Les problématique ?
-- <span class="fragment">L'installation et la configuration de serveur est fastidieux</span>
-- <span class="fragment">Le déployement d'application est aussi fastidieux</span>
+- <span class="fragment">L'installation et la configuration de serveur est complexe</span>
 +++
-<img class="plain" data-src="Problématique.png"/>
+<img class="plain" data-src="Probleme.png"/>
 +++
 ### Les solutions 
 
@@ -42,6 +42,16 @@ Juin 2017
 
 +++
 <img class="plain" data-src="Solution.png"/>
+
+---
+### Environement 
+- <span class ="fragment">Virtualisation </span>
+- <span class ="fragment">Technologie des conteneur</span>
++++
+### Virtualisation
+
++++
+<img class="plain" data-src="hosted.png"/>
 +++
 ### Technologie conteneur 
 - <span class="fragment">Isolement d'un environement en utilisant les resources de la machine hote</span>
@@ -49,10 +59,11 @@ Juin 2017
 - <span class="fragment">Permet un déploiment très facile </span>
 
 +++
-
 ### Virtualisation Vs Conteneurs
 <img class="plain" data-src="CaptureDocker1.png"/>
-+++
+
+---
+
 ### Les solutions
 
 - <span class="fragment">Puppet</span>
@@ -62,7 +73,131 @@ Juin 2017
 - <span class="fragment">Rudder</span>
 - <span class="fragment">OpenShift</span>
 
++++
+### Chef
+- <span class="fragment">Opscode</span>
+- <span class="fragment">2009</span>
+- <span class="fragment">Ruby</span>
+- <span class="fragment">Serveur/Client</span>
+- <span class="fragment">3 modes de fonctionnement</span>
+- <span class="fragment">Cookbooks</span>
+- <span class="fragment">Apache 2.0</span>
++++
+### Cookbooks
+- <span class="fragment">Dossier</span>
+- <span class="fragment">Recettes en RubyDSL</span>
+- <span class="fragment">Templates</span>
+
++++
+### Recipes
+
+```ruby
+package  = "vim"
+
+execute "apt-get update" do
+ command "apt-get update"
+end
+
+apt_package package do
+ action :install
+end
+```
++++
+### Chef
+<img class="plain" data-src="chef_repr.png"/>
+- <span class="fragment">Workstation : machine admin </span>
+- <span class="fragment">Serveur Chef </span>
+- <span class="fragment">Node : machine cible </span>
+
++++
+### Puppet
+
+- <span class="fragment">Puppet Labs</span>
+- <span class="fragment">2003</span>
+- <span class="fragment">Ruby</span>
+- <span class="fragment">Serveur/Client</span>
+- <span class="fragment">Manifest en RubyDSL</span>
+- <span class="fragment">Apache 2.0</span>
++++
+### Manifest
+
+```ruby
+node 'puppetagent1.int.cetic.be' {
+include util
+}
+
+class util {
+        package { 'tree':
+                ensure => installed
+        }
+        package { 'mc':
+                ensure => installed
+        }
+        package { 'nano':
+                ensure => installed
+        }
+
+}
+
+``` 
+
++++
+### Ansible
+- <span class="fragment">Red Hat</span>
+- <span class="fragment">2012</span>
+- <span class="fragment">Python</span>
+- <span class="fragment">Client</span>
+- <span class="fragment">Playbook en YAML</span>
+- <span class="fragment">GPL-3.0</span>
++++
+### Playbook
+
+```yaml
+- hosts: linode
+  remote_user: yourusername
+  become: yes
+  become_method: sudo
+  tasks:
+    - name: "Install Apache, MySQL, and PHP5"
+      apt: name={{ item }} state=present
+      with_items:
+        - apache2
+        - mysql-server
+        - python-mysqldb
+        - php5
+        - php-pear
+        - php5-mysql
+```
+
++++
+### Ansible Tower
+<img class="plain" data-src="tower-screenshot-blog2.png"/>
++++
+### SaltStack
+- <span class="fragment">Tom Hatch</span>
+- <span class="fragment">2011</span>
+- <span class="fragment">Python</span>
+- <span class="fragment">Serveur/Client</span>
+- <span class="fragment">State en YAML </span>
+- <span class="fragment">Apache 2.0</span>
++++
+
+### State
+```yaml
+nginx:
+  pkg:
+    - installed
+  service:
+    - running
+    - watch:
+      - pkg: nginx
+      - file: /etc/nginx/nginx.conf
+```
+
 ---
+
+
+
 ### Les critères de comparaison 
 - <span class="fragment">Facilité d'installation</span>
 - <span class="fragment">facilité d'utilisation</span>
