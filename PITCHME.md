@@ -66,13 +66,17 @@ Juin 2017
 
 ### Les solutions
 
-- <span class="fragment">Puppet</span>
 - <span class="fragment">Chef</span>
+- <span class="fragment">Puppet</span>
 - <span class="fragment">Ansible</span>
 - <span class="fragment">Saltstack</span>
-- <span class="fragment">Rudder</span>
-- <span class="fragment">OpenShift</span>
 
++++
+### Les critères de comparaison 
+- <span class="fragment">Facilité d'installation</span>
+- <span class="fragment">facilité d'utilisation</span>
+- <span class="fragment">Evolution</span>
+- <span class="fragment">Architecture</span>
 +++
 ### Chef
 - <span class="fragment">Opscode</span>
@@ -104,7 +108,7 @@ end
 ```
 +++
 ### Chef
-<img class="plain" data-src="chef_repr.png"/>
+<img class="plain" data-src="Chef.png"/>
 - <span class="fragment">Workstation : machine admin </span>
 - <span class="fragment">Serveur Chef </span>
 - <span class="fragment">Node : machine cible </span>
@@ -168,10 +172,6 @@ class util {
         - php-pear
         - php5-mysql
 ```
-
-+++
-### Ansible Tower
-<img class="plain" data-src="tower-screenshot-blog2.png"/>
 +++
 ### SaltStack
 - <span class="fragment">Tom Hatch</span>
@@ -193,17 +193,8 @@ nginx:
       - pkg: nginx
       - file: /etc/nginx/nginx.conf
 ```
-
----
-
-
-
-### Les critères de comparaison 
-- <span class="fragment">Facilité d'installation</span>
-- <span class="fragment">facilité d'utilisation</span>
-- <span class="fragment">Evolution</span>
-- <span class="fragment">Architecture</span>
 +++
+
 
 <table style="font-size: 60%;">
   <tr>
