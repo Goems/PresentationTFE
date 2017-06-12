@@ -1,3 +1,4 @@
 theme : beige
 background : CeticTemplate.jpg
 logo : logo.png
+slide-number: true
