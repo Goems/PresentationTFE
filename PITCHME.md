@@ -87,6 +87,11 @@ Juin 2017
 - <span class="fragment">3 modes de fonctionnement</span>
 - <span class="fragment">Cookbooks</span>
 - <span class="fragment">Apache 2.0</span>
+
++++
+### Chef
+<img class="plain" data-src="Chef.png"/>
+
 +++
 ### Cookbooks
 - <span class="fragment">Dossier</span>
@@ -107,12 +112,6 @@ apt_package package do
  action :install
 end
 ```
-+++
-### Chef
-<img class="plain" data-src="Chef.png"/>
-- <span class="fragment">Workstation : machine admin </span>
-- <span class="fragment">Serveur Chef </span>
-- <span class="fragment">Node : machine cible </span>
 
 +++
 ### Puppet
@@ -123,6 +122,9 @@ end
 - <span class="fragment">Serveur/Client</span>
 - <span class="fragment">Manifest en RubyDSL</span>
 - <span class="fragment">Apache 2.0</span>
++++
+### Puppet
+<img class="plain" data-src="Puppet.png"/>
 +++
 ### Manifest
 
@@ -155,6 +157,10 @@ class util {
 - <span class="fragment">Playbook en YAML</span>
 - <span class="fragment">GPL-3.0</span>
 +++
+### Puppet
+<img class="plain" data-src="ansible.png"/>
+
++++
 ### Playbook
 
 ```yaml
@@ -181,6 +187,10 @@ class util {
 - <span class="fragment">Serveur/Client</span>
 - <span class="fragment">State en YAML </span>
 - <span class="fragment">Apache 2.0</span>
++++
+### Puppet
+<img class="plain" data-src="Saltstack.png"/>
+
 +++
 
 ### State
