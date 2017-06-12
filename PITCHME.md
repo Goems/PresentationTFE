@@ -61,7 +61,8 @@ Juin 2017
 +++
 ### Virtualisation Vs Conteneurs
 <img class="plain" data-src="CaptureDocker1.png"/>
-
++++
+<img class="plain" data-src="entestfinal.png"/>
 ---
 
 ### Les solutions
@@ -74,8 +75,8 @@ Juin 2017
 +++
 ### Les critères de comparaison 
 - <span class="fragment">Facilité d'installation</span>
-- <span class="fragment">facilité d'utilisation</span>
-- <span class="fragment">Evolution</span>
+- <span class="fragment">Facilité d'utilisation</span>
+- <span class="fragment">Environement</span>
 - <span class="fragment">Architecture</span>
 +++
 ### Chef
@@ -150,7 +151,7 @@ class util {
 - <span class="fragment">Red Hat</span>
 - <span class="fragment">2012</span>
 - <span class="fragment">Python</span>
-- <span class="fragment">Client</span>
+- <span class="fragment">Agent-Less</span>
 - <span class="fragment">Playbook en YAML</span>
 - <span class="fragment">GPL-3.0</span>
 +++
@@ -201,7 +202,7 @@ nginx:
     <th>Solutions</th>
     <th>Facilité d'installation</th>
     <th>Facilité d'utilisation</th>
-    <th>Evolution</th>
+    <th>Environement</th>
     <th>Archicteture</th>
   </tr>
   <tr>
@@ -223,7 +224,7 @@ nginx:
     <td>°°°°</td>
     <td>°°°</td>
     <td>°°°°</td>
-    <td>Client</td>
+    <td>Agent-Less</td>
   </tr>
     <tr>
     <td>SaltStack</td>
@@ -232,19 +233,9 @@ nginx:
     <td>°°°</td>
     <td>Serveur/Client</td>
   </tr>
-    <tr>
-    <td>OpenShift</td>
-    <td>°°°°</td>
-    <td>°°°°</td>
-    <td>°°°°</td>
-    <td>Serveur</td>
-  </tr>
 </table>
 
 
----
-
-### Résumé 
 ---
 
 
