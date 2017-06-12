@@ -11,7 +11,7 @@ Juin 2017
 
 ## Sommaire
  - <span class ="fragment">Le CETIC ? C'est quoi ?</span>  
- - <span class ="fragment">Problématiques et solutions </span>
+ - <span class ="fragment">Problématique et solutions </span>
  - <span class ="fragment">Environement</span> 
  - <span class ="fragment">Analyse et résultat</span>
  - <span class ="fragment">Conclusion </span> 
@@ -30,7 +30,7 @@ Juin 2017
 
 
 ---
-### Les problématique ?
+### Problématique ?
 - <span class="fragment">L'installation et la configuration de serveur est complexe</span>
 +++
 <img class="plain" data-src="Probleme.png"/>
@@ -48,7 +48,6 @@ Juin 2017
 - <span class ="fragment">Technologie des conteneur</span>
 +++
 ### Virtualisation
-
 +++
 <img class="plain" data-src="hosted.png"/>
 +++
