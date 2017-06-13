@@ -1,12 +1,12 @@
 
 ### Analyse comparative d'outils de déploiment et de configuration automatisée
-Stage de fin d'étude réalisé au CETIC
-Présenté par Valentin GOEMANNE
 
-Sous la direction de Sébastien DUPONT et de Michel HANOTIAUX
+Présenté par Valentin GOEMANNE
 
 Juin 2017
 
+---
+## Remerciments
 ---
 
 ## Sommaire
@@ -27,21 +27,23 @@ Juin 2017
 - <span class="fragment">45 personnes</span>
 - <span class="fragment">15 ans</span>
 - <span class="fragment">Zoning de Gosselies</span>
-
-
++++
+### Leurs missions
+- <span class="fragment">Promouvoir l'IT </span>
+- <span class="fragment">Expertise</span>
+- <span class="fragment">Prototypage</span>
+- <span class="fragment">Ne fais pas de concurence au entreprise</span>
 ---
 ### Problématique ?
 - <span class="fragment">L'installation et la configuration de serveur est complexe</span>
-+++
-<img class="plain" data-src="Probleme.png"/>
 +++
 ### Les solutions 
 
 - <span class="fragment">Logiciel de gestion de configuration</span>
 
 +++
-<img class="plain" data-src="Solution.png"/>
 
+<img class="plain" data-src="Solution.png"/>
 ---
 ### Environement 
 - <span class ="fragment">Virtualisation </span>
