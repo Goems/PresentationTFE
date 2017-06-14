@@ -1,5 +1,5 @@
 
-### Analyse comparative d'outils de déploiment et de configuration automatisée
+### Analyse comparative d'outils de déploiement et de configuration automatisée
 
 Présenté par Valentin GOEMANNE
 
@@ -10,8 +10,8 @@ Juin 2017
 ## Sommaire
  - <span class ="fragment">Le CETIC ? C'est quoi ?</span>  
  - <span class ="fragment">Problématique et solutions </span>
- - <span class ="fragment">Environement</span> 
- - <span class ="fragment">Analyse et résultat</span>
+ - <span class ="fragment">Environnement</span> 
+ - <span class ="fragment">Analyse et résultats</span>
  - <span class ="fragment">Conclusion </span> 
 
 ---
@@ -24,15 +24,15 @@ Juin 2017
 - <span class="fragment">ASBL</span>
 - <span class="fragment">45 personnes</span>
 - <span class="fragment">15 ans</span>
-- <span class="fragment">Zoning de Gosselies</span>
+- <span class="fragment">Aéropôle, Gosselies</span>
 +++
-### Leurs missions
+### Missions
 - <span class="fragment">Promouvoir l'IT </span>
   - <span class="fragment">Expertise</span>
   - <span class="fragment">Prototypage</span>
-- <span class="fragment">Ne fais pas de concurence au entreprise</span>
+- <span class="fragment">Ne pas faire de concurence aux entreprises</span>
 ---
-### Problématique ?
+### Problématique du TFE
 - <span class="fragment">L'installation et la configuration de serveur est complexe</span>
 +++
 ### Les solutions 
@@ -42,16 +42,16 @@ Juin 2017
 +++
 <img class="plain" data-src="Solution.png"/>
 ---
-### Environement 
+### Environnement 
 - <span class ="fragment">Virtualisation </span>
 +++
 ### Virtualisation
-- <span class ="fragment">Virtualiser des environement informatique  </span>
+- <span class ="fragment">Virtualiser des environements informatiques  </span>
 - <span class ="fragment">à l'aide des ressources de la physique </span>
 - <span class ="fragment">Hyperviseur </span>
 +++
 ### Vagrant 
-- <span class ="fragment">Logiciel permettant de piloté l'hyperviseur</span>
+- <span class ="fragment">Logiciel permettant de piloter l'hyperviseur</span>
 - <span class ="fragment">Création de VM à l'aide d'un fichier</span>
 +++
 
@@ -69,7 +69,7 @@ Juin 2017
 ### Les critères de comparaison 
 - <span class="fragment">Facilité d'installation</span>
 - <span class="fragment">Facilité d'utilisation</span>
-- <span class="fragment">Environement</span>
+- <span class="fragment">Environnement</span>
 - <span class="fragment">Architecture</span>
 +++
 
