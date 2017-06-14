@@ -42,7 +42,6 @@ Juin 2017
 - <span class="fragment">Logiciel de gestion de configuration</span>
 
 +++
-
 <img class="plain" data-src="Solution.png"/>
 ---
 ### Environement 
@@ -97,21 +96,6 @@ Juin 2017
 - <span class="fragment">Dossier</span>
 - <span class="fragment">Recettes en RubyDSL</span>
 - <span class="fragment">Templates</span>
-
-+++
-### Recipes
-
-```ruby
-package  = "vim"
-
-execute "apt-get update" do
- command "apt-get update"
-end
-
-apt_package package do
- action :install
-end
-```
 
 +++
 ### Puppet
