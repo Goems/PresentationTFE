@@ -49,9 +49,15 @@ Juin 2017
 - <span class ="fragment">Technologie des conteneur</span>
 +++
 ### Virtualisation
+- <span class ="fragment">Virtualiser des environement informatique  </span>
+- <span class ="fragment">à l'aide des ressources de la physique </span>
+- <span class ="fragment">Hyperviseur </span>
 +++
-<img class="plain" data-src="hosted.png"/>
+### Vagrant 
+- <span class ="fragment">Logiciel permettant de piloté l'hyperviseur</span>
+- <span class ="fragment">Création de VM à l'aide d'un fichier</span>
 +++
+
 ### Technologie conteneur 
 - <span class="fragment">Isolement d'un environement en utilisant les resources de la machine hote</span>
 - <span class="fragment">Excution de logiciel en toute transparance sur n'importe quel environement</span>
