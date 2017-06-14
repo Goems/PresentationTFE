@@ -84,6 +84,49 @@ Juin 2017
 - <span class="fragment">Environement</span>
 - <span class="fragment">Architecture</span>
 +++
+
+<table style="font-size: 60%;">
+  <tr>
+    <th>Solutions</th>
+    <th>Facilité d'installation</th>
+    <th>Facilité d'utilisation</th>
+    <th>Environement</th>
+    <th>Archicteture</th>
+  </tr>
+  <tr>
+    <td>Puppet</td>
+    <td>°°</td>
+    <td>°°</td>
+    <td>°°</td>
+    <td>Serveur/Client</td>
+  </tr>
+    <tr>
+    <td>Chef</td>
+    <td>°°°</td>
+    <td>°°°°</td>
+    <td>°°°</td>
+    <td>Serveur/Client</td>
+  </tr>
+    <tr>
+    <td>Ansible</td>
+    <td>°°°°</td>
+    <td>°°°</td>
+    <td>°°°°</td>
+    <td>Agent-Less</td>
+  </tr>
+    <tr>
+    <td>SaltStack</td>
+    <td>°°°</td>
+    <td>°°°</td>
+    <td>°°°</td>
+    <td>Serveur/Client</td>
+  </tr>
+</table>
++++
+
+
+
+
 ### Chef
 - <span class="fragment">Opscode</span>
 - <span class="fragment">2009</span>
