@@ -6,8 +6,6 @@ Présenté par Valentin GOEMANNE
 Juin 2017
 
 ---
-## Remerciments
----
 
 ## Sommaire
  - <span class ="fragment">Le CETIC ? C'est quoi ?</span>  
@@ -30,8 +28,8 @@ Juin 2017
 +++
 ### Leurs missions
 - <span class="fragment">Promouvoir l'IT </span>
-- <span class="fragment">Expertise</span>
-- <span class="fragment">Prototypage</span>
+  - <span class="fragment">Expertise</span>
+  - <span class="fragment">Prototypage</span>
 - <span class="fragment">Ne fais pas de concurence au entreprise</span>
 ---
 ### Problématique ?
@@ -46,7 +44,6 @@ Juin 2017
 ---
 ### Environement 
 - <span class ="fragment">Virtualisation </span>
-- <span class ="fragment">Technologie des conteneur</span>
 +++
 ### Virtualisation
 - <span class ="fragment">Virtualiser des environement informatique  </span>
@@ -58,15 +55,6 @@ Juin 2017
 - <span class ="fragment">Création de VM à l'aide d'un fichier</span>
 +++
 
-### Technologie conteneur 
-- <span class="fragment">Isolement d'un environement en utilisant les resources de la machine hote</span>
-- <span class="fragment">Excution de logiciel en toute transparance sur n'importe quel environement</span>
-- <span class="fragment">Permet un déploiment très facile </span>
-
-+++
-### Virtualisation Vs Conteneurs
-<img class="plain" data-src="CaptureDocker1.png"/>
-+++
 <img class="plain" data-src="entestfinal.png"/>
 ---
 
