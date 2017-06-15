@@ -60,8 +60,8 @@ Juin 2017
 
 ### Les solutions
 
-- <span class="fragment">Chef</span>
 - <span class="fragment">Puppet</span>
+- <span class="fragment">Chef</span>
 - <span class="fragment">Ansible</span>
 - <span class="fragment">Saltstack</span>
 
@@ -84,8 +84,8 @@ Juin 2017
   <tr>
     <td>Puppet</td>
     <td>°°</td>
-    <td>°°</td>
-    <td>°°</td>
+    <td>°°°</td>
+    <td>°°°</td>
     <td>Serveur/Client</td>
   </tr>
     <tr>
@@ -110,162 +110,6 @@ Juin 2017
     <td>Serveur/Client</td>
   </tr>
 </table>
-+++
-
-
-
-
-### Chef
-- <span class="fragment">Opscode</span>
-- <span class="fragment">2009</span>
-- <span class="fragment">Ruby</span>
-- <span class="fragment">Serveur/Client</span>
-- <span class="fragment">3 modes de fonctionnement</span>
-- <span class="fragment">Cookbooks</span>
-- <span class="fragment">Apache 2.0</span>
-
-+++
-### Chef
-<img class="plain" data-src="Chef.png"/>
-
-+++
-### Cookbooks
-- <span class="fragment">Dossier</span>
-- <span class="fragment">Recettes en RubyDSL</span>
-- <span class="fragment">Templates</span>
-
-+++
-### Puppet
-
-- <span class="fragment">Puppet Labs</span>
-- <span class="fragment">2003</span>
-- <span class="fragment">Ruby</span>
-- <span class="fragment">Serveur/Client</span>
-- <span class="fragment">Manifest en RubyDSL</span>
-- <span class="fragment">Apache 2.0</span>
-+++
-### Puppet
-<img class="plain" data-src="Puppet.png"/>
-+++
-### Manifest
-
-```ruby
-node 'puppetagent1.int.cetic.be' {
-include util
-}
-
-class util {
-        package { 'tree':
-                ensure => installed
-        }
-        package { 'mc':
-                ensure => installed
-        }
-        package { 'nano':
-                ensure => installed
-        }
-
-}
-
-``` 
-
-+++
-### Ansible
-- <span class="fragment">Red Hat</span>
-- <span class="fragment">2012</span>
-- <span class="fragment">Python</span>
-- <span class="fragment">Agent-Less</span>
-- <span class="fragment">Playbook en YAML</span>
-- <span class="fragment">GPL-3.0</span>
-+++
-### Puppet
-<img class="plain" data-src="ansible.png"/>
-
-+++
-### Playbook
-
-```yaml
-- hosts: linode
-  remote_user: yourusername
-  become: yes
-  become_method: sudo
-  tasks:
-    - name: "Install Apache, MySQL, and PHP5"
-      apt: name={{ item }} state=present
-      with_items:
-        - apache2
-        - mysql-server
-        - python-mysqldb
-        - php5
-        - php-pear
-        - php5-mysql
-```
-+++
-### SaltStack
-- <span class="fragment">Tom Hatch</span>
-- <span class="fragment">2011</span>
-- <span class="fragment">Python</span>
-- <span class="fragment">Serveur/Client</span>
-- <span class="fragment">State en YAML </span>
-- <span class="fragment">Apache 2.0</span>
-+++
-### Puppet
-<img class="plain" data-src="Saltstack.png"/>
-
-+++
-
-### State
-```yaml
-nginx:
-  pkg:
-    - installed
-  service:
-    - running
-    - watch:
-      - pkg: nginx
-      - file: /etc/nginx/nginx.conf
-```
-+++
-
-
-<table style="font-size: 60%;">
-  <tr>
-    <th>Solutions</th>
-    <th>Facilité d'installation</th>
-    <th>Facilité d'utilisation</th>
-    <th>Environement</th>
-    <th>Archicteture</th>
-  </tr>
-  <tr>
-    <td>Puppet</td>
-    <td>°°</td>
-    <td>°°</td>
-    <td>°°</td>
-    <td>Serveur/Client</td>
-  </tr>
-    <tr>
-    <td>Chef</td>
-    <td>°°°</td>
-    <td>°°°°</td>
-    <td>°°°</td>
-    <td>Serveur/Client</td>
-  </tr>
-    <tr>
-    <td>Ansible</td>
-    <td>°°°°</td>
-    <td>°°°</td>
-    <td>°°°°</td>
-    <td>Agent-Less</td>
-  </tr>
-    <tr>
-    <td>SaltStack</td>
-    <td>°°°</td>
-    <td>°°°</td>
-    <td>°°°</td>
-    <td>Serveur/Client</td>
-  </tr>
-</table>
-
 
 ---
 
@@ -278,3 +122,28 @@ nginx:
 ---
 
 ### Question ? 
+
+---
+### Solutions
++++
+
+### Chef
+<img class="plain" data-src="Chef.png"/>
+
++++
+
+
+### Puppet
+<img class="plain" data-src="Puppet.png"/>
+
+
++++
+
+### Ansible
+<img class="plain" data-src="ansible.png"/>
+
++++
+
+### SaltStack
+<img class="plain" data-src="Saltstack.png"/>
+---
