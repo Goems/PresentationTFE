@@ -46,8 +46,8 @@ Juin 2017
 - <span class ="fragment">Virtualisation </span>
 +++
 ### Virtualisation
-- <span class ="fragment">Virtualiser des environements informatiques  </span>
-- <span class ="fragment">à l'aide des ressources de la physique </span>
+- <span class ="fragment">Virtualiser des environnements informatiques  </span>
+- <span class ="fragment">à l'aide des ressources de la machine physique </span>
 - <span class ="fragment">Hyperviseur </span>
 +++
 ### Vagrant 
