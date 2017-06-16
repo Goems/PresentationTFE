@@ -9,7 +9,7 @@ Juin 2017
 
 ## Sommaire
  - <span class ="fragment">Le CETIC ? C'est quoi ?</span>  
- - <span class ="fragment">Problématique et solutions </span>
+ - <span class ="fragment">Problématique et solution </span>
  - <span class ="fragment">Environnement</span> 
  - <span class ="fragment">Analyse et résultats</span>
  - <span class ="fragment">Conclusion </span> 
@@ -35,7 +35,7 @@ Juin 2017
 ### Problématique du TFE
 - <span class="fragment">L'installation et la configuration de serveur est complexe</span>
 +++
-### Les solutions 
+### Solution 
 
 - <span class="fragment">Logiciel de gestion de configuration</span>
 
