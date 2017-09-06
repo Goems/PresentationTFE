@@ -37,7 +37,7 @@ Septembre 2017
 +++
 ### Solution 
 
-- <span class="fragment">Logiciel de gestion de configuration</span>
+- <span class="fragment">Logiciels de gestion de configuration</span>
 
 +++
 <img class="plain" data-src="Solution.png"/>
