@@ -147,4 +147,3 @@ Septembre 2017
 
 ### SaltStack
 <img class="plain" data-src="Saltstack.png"/>
----
