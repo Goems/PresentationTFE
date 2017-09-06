@@ -128,6 +128,7 @@ Septembre 2017
 +++
 
 ### Chef
+
 <img class="plain" data-src="Chef.png"/>
 
 +++
