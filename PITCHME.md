@@ -33,7 +33,7 @@ Septembre 2017
 - <span class="fragment">Ne pas faire de concurence aux entreprises</span>
 ---
 ### Problématique du TFE
-- <span class="fragment">L'installation et la configuration de serveur est complexe</span>
+- <span class="fragment">Complexité de gérer une mutlitude de serveurs</span>
 +++
 ### Solution 
 
